@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Ephesis&display=swap');
+.container{
+    max-width: 1200px;
+}
+.boxx h1{
+    font-family: 'Ephesis', cursive;
+    font-weight: bolder;
+    font-size: 120px;
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.boxx h2{
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 10px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+body{
+    background: rgb(255, 255, 255);
+}
+.boxx{
+    display: flex;
+    margin-top: 150px;
+}
+.box01,
+.box02,
+.box03{
+    height: 300px;
+    width: 300px;
+    border-radius: 35px;
+   background: linear-gradient(145deg, #cacaca, #f0f0f01f);
+   /* background: transparent; */
+    box-shadow: 0px 0px 46px 3px #000000;
+}
+.box01,
+.box02{
+    margin-right: 150px;
+}
+.main{
+    position: relative;
+}
+.ran{
+    border: 2px solid rgba(63, 63, 63, 0.274);
+    border-radius: 30px;
+    margin-top: 100px;
+    width: 600px;
+    height: 240px;
+    position: relative;
+    position: absolute;
+    left: 25%;
+    background: rgba(4, 49, 63, 0.425);
+}
+.ran h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Ephesis', cursive;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: rgba(255, 255, 255, 0.575);
+}
+.ran h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Ephesis', cursive;
+    font-weight: 600;
+    font-size: 80px;
+    margin-bottom: 0px;
+    color: rgba(255, 255, 255, 0.521);
+}
+.ran button{
+    display: flex;
+    justify-content: center;
+    border: 2px inset rgba(2, 68, 37, 0.13);
+    color: #fff !important;
+    transition: .2s;
+    position: absolute;
+    left: 39%;
+
+}
+.ran button:hover{
+    border: 2px solid rgba(255, 255, 255, 0.596);
+}
+
+/*
+font-family: 'Anton', sans-serif;
+font-family: 'Ephesis', cursive;
+*/
