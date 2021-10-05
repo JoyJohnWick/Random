@@ -1,4 +1,4 @@
-// COLOR
+
 document.querySelector(".box01").addEventListener('mouseover', alertmsg)
 document.querySelector(".box02").addEventListener('mouseover', alertmsgg)
 document.querySelector(".box03").addEventListener('mouseover', alertmsggg)
